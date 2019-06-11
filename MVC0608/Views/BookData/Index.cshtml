@@ -113,7 +113,7 @@
                 success: function (response) {
                     Grid(response);
                 }, error: function (error) {
-                    alert("系統發生錯誤");
+                    alert("錯誤");
                 }
             });
 
@@ -128,7 +128,7 @@
                             .dataSource
                             .data(response);
                     }, error: function (error) {
-                        alert("系統發生錯誤");
+                        alert("錯誤");
                     }
                 });
                 return false;
@@ -151,7 +151,7 @@
                             alert("新增成功");
                             location.reload();
                         }, error: function (error) {
-                            alert("系統發生錯誤");
+                            alert("錯誤");
                         }
                     });
                     $("#window").data('kendoWindow').close();
